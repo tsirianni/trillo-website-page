@@ -10,11 +10,13 @@
 @import "./base/utilities";
 
 // Components
-@import "./components/header";
-@import "./components/navbar";
-@import "./components/hotel-overview";
 @import "./components/buttons";
 
 // Layouts
 @import "./layouts/layout";
 @import "./layouts/header";
+
+// Sections
+@import "./sections/header";
+@import "./sections/navbar";
+@import "./sections/hotel-overview";
