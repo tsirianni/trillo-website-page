@@ -1,6 +1,7 @@
 // Abstracts
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
+@import "./abstracts/animations";
 
 // Base
 @import "./base/animations";
@@ -9,8 +10,10 @@
 @import "./base/utilities";
 
 // Components
-@import "./components/components-header";
-@import "./components/components-navbar";
+@import "./components/header";
+@import "./components/navbar";
+@import "./components/hotel-overview";
+@import "./components/buttons";
 
 // Layouts
 @import "./layouts/layout";
