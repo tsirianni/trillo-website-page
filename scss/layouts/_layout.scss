@@ -20,5 +20,19 @@
 
 .hotel-view {
   flex: 1;
-  height: 80rem;
+}
+
+.details {
+  display: flex;
+  padding: 4.5rem;
+}
+
+.description {
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+  font-size: 1.4rem;
+}
+
+.user-reviews {
+  flex: 1;
 }

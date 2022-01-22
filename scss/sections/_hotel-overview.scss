@@ -11,7 +11,7 @@
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid $grey-light-2;
+  border-bottom: $default-border;
 
 
   &__heading {

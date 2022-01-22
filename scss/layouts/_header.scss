@@ -1,7 +1,7 @@
 .header {
   height: 7rem;
   background-color: $white;
-  border-bottom: 1px solid $grey-light-2;
+  border-bottom: $default-border;
   display: flex;
   justify-content: space-between;
   align-items: center;

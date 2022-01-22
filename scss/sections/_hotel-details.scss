@@ -1,0 +1,16 @@
+.details {
+  display: flex;
+  padding: 4.5rem;
+  background-color: $grey-light-1;
+  border-bottom: $default-border;
+}
+
+.description {
+  background-color: $white;
+  box-shadow: $details-shadow;
+  padding: 3rem;
+}
+
+.user-reviews {
+  background-color: lightblue;
+}
