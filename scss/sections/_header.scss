@@ -1,3 +1,19 @@
+.header {
+  height: 7rem;
+  background-color: $white;
+  border-bottom: $default-border;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+
+  @include respond($bp-smallest) {
+    flex-wrap: wrap;
+    height: 10rem;
+    align-content: space-around;
+  }
+}
+
 // Main logo
 .logo {
   height: 3.25rem;
@@ -10,6 +26,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @include respond($bp-smallest) {
+   order: 1;
+   flex: 0 0 100%;
+   background-color: $grey-light-2;
+  }
 
   &__input {
     font-family: inherit;

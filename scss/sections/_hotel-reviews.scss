@@ -11,6 +11,10 @@
     margin-bottom: 3rem;
   }
 
+  @include respond($bp-phone) {
+    width: 100%;
+  }
+
   &__text {
     margin-bottom: 2rem;
     z-index: 5;

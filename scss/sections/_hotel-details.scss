@@ -7,6 +7,11 @@
   @include respond($bp-medium) {
     padding: 3rem;
   }
+
+  @include respond($bp-phone) {
+    flex-direction: column;
+    // padding: 2rem;
+  }
 }
 
 .description {
@@ -16,6 +21,11 @@
 
   @include respond($bp-medium) {
     padding: 2rem;
+  }
+
+  @include respond($bp-phone) {
+    margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 

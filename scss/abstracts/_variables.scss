@@ -21,7 +21,7 @@ $white: #fff;
 $default-size: 1.6rem;
 
 // Box shadows
-$default-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
+$default-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 $animation-shadow: 0 1rem 4rem rgba(0, 0, 0, .25);
 $details-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
 
@@ -32,4 +32,6 @@ $default-border: 1px solid $grey-light-2;
 $bp-largest: 75em; // 1200px
 $bp-large: 68.75em; // 1100px
 $bp-medium: 54.6875em; // 875px
-$bp-phone: 38.125em;
+$bp-phone: 38.125em; // 610px
+$bp-small: 35.625em; // 570px 
+$bp-smallest: 28.125em; //450px
