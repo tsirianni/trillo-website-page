@@ -27,3 +27,9 @@ $details-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
 
 // Borders
 $default-border: 1px solid $grey-light-2;
+
+// Mixins variables
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 54.6875em; // 875px
+$bp-phone: 38.125em;

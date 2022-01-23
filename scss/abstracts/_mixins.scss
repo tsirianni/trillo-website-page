@@ -2,23 +2,9 @@
   background-image: linear-gradient(to right bottom, $color-one, $color-two);
 }
 
-// With opacity
-@mixin linear-grad-op($color-one, $color-two, $opacity) {
-  background-image: linear-gradient(to right bottom,
-  rgba($color-one, $opacity),
-  rgba($color-two, $opacity));
-}
 
-// With opacity and image
-@mixin linear-grad-img-op($color-one, $color-two, $opacity, $path) {
-  background-image: linear-gradient(to right bottom,
-  rgba($color-one, $opacity),
-  rgba($color-two, $opacity)),
-  url($path);
-}
-
-// With image | without opacity
-@mixin linear-grad-img($color-one, $color-two, $path) {
-  background-image: linear-gradient(to right bottom, $color-one, $color-two),
-  url($path);
+@mixin respond($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
 }

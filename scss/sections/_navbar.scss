@@ -3,12 +3,30 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  @include respond($bp-medium) {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  @include respond($bp-phone) {
+    width: 100%;
+  }
+
 
   &__item {
     position: relative;
 
     &:not(:last-child) {
       margin-bottom: .5rem;
+
+      @include respond($bp-medium) {
+        margin-bottom: 0;
+      }
+
+      @include respond($bp-phone) {
+        flex: 1;
+      }
     }
   }
 
@@ -64,6 +82,16 @@
   color: $grey-light-4;
   text-align: center;
   padding: 2.5rem 1rem;
+
+  @include respond($bp-medium) {
+    padding: 0;
+    text-align: right;
+    margin-right: 1.5rem;
+  }
+
+  @include respond($bp-phone) {
+    display: none;
+  }
 
   &__copyright {
     text-decoration: none;
