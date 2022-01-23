@@ -346,10 +346,6 @@ body {
       .overview__heading {
         font-size: 1.8rem;
         padding: 1.25rem 2rem; } }
-    @media only screen and (max-width: 28.125em) {
-      .overview__heading {
-        font-size: 1.5rem;
-        padding: 1rem 1.5rem; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -361,9 +357,6 @@ body {
     font-size: 1.5rem;
     display: flex;
     vertical-align: center; }
-    @media only screen and (max-width: 28.125em) {
-      .overview__location {
-        font-size: 1.2rem; } }
   .overview__icon-location {
     margin-right: .5rem; }
   .overview__rating {
@@ -379,9 +372,6 @@ body {
     @media only screen and (max-width: 35.625em) {
       .overview__rating {
         padding: 0 1.5rem; } }
-    @media only screen and (max-width: 28.125em) {
-      .overview__rating {
-        margin-left: 1rem; } }
   .overview__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
@@ -419,9 +409,6 @@ body {
     .description {
       margin-right: 0;
       margin-bottom: 3rem; } }
-  @media only screen and (max-width: 38.125em) {
-    .description {
-      font-size: 1.2rem; } }
 
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem; }

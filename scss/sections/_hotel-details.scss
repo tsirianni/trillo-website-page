@@ -10,8 +10,8 @@
 
   @include respond($bp-phone) {
     flex-direction: column;
-    // padding: 2rem;
   }
+  
 }
 
 .description {
@@ -26,6 +26,10 @@
   @include respond($bp-phone) {
     margin-right: 0;
     margin-bottom: 3rem;
+  }
+
+  @include respond($bp-phone) {
+    font-size: 1.2rem;
   }
 }
 
@@ -54,14 +58,18 @@
     height: 1rem;
     width: 1rem;
     margin-right: .7rem;
-    background-color: $primary;
-    -webkit-mask-image: url("../images/chevron-thin-right.svg");
-    -webkit-mask-size: cover;
-    mask-image: url("../images/chevron-thin-right.svg");
-    mask-size: cover;
+    background-size: cover;
+    background-image: url("../images/chevron-thin-right.svg");
 
-    // background-size: cover;
-    // background-image: url("../images/chevron-thin-right.svg");
+    @supports (-webkit-mask-image: url()) or (mask-image: url()) {
+      background-color: $primary;
+      -webkit-mask-image: url("../images/chevron-thin-right.svg");
+      -webkit-mask-size: cover;
+      mask-image: url("../images/chevron-thin-right.svg");
+      mask-size: cover;
+      background-image: none;
+    }
+    
   }
 
 }

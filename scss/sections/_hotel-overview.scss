@@ -25,6 +25,11 @@
       font-size: 1.8rem;
       padding: 1.25rem 2rem;
     }
+
+    @include respond($bp-smallest) {
+      font-size: 1.5rem;
+      padding: 1rem 1.5rem;
+    }
   }
 
   &__stars {
@@ -43,6 +48,10 @@
     font-size: 1.5rem;
     display: flex;
     vertical-align: center;
+
+    @include respond($bp-smallest) {
+      font-size: 1.2rem;
+    }
   }
 
   &__icon-location {
@@ -62,6 +71,10 @@
 
     @include respond($bp-small) {
       padding: 0 1.5rem;
+    }
+
+    @include respond($bp-smallest) {
+      margin-left: 1rem;
     }
   }
 
