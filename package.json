@@ -2,7 +2,7 @@
   "name": "trillo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "watch:sass": "node-sass scss/main.scss css/style.css -w",
     "devserver": "live-server",
@@ -32,5 +32,8 @@
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^9.1.0",
     "live-server": "1.2.1"
+  },
+  "engines": {
+    "node": "16.13.1"
   }
 }
