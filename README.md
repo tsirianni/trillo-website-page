@@ -10,7 +10,7 @@ Os direitos autorais sobre o design são do autor do curso de CSS avançado [Jon
 
 ### Design
 
-Abaixo, confira uma imagem do design principal, voltada para desktop. Você pode conferir o projeto inteiro [link not available yet...]()
+Abaixo, confira uma imagem do design principal, voltada para desktop. Você pode conferir o projeto inteiro [aqui](https://trillo-portfolio.herokuapp.com/).
 
 <img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Trillo/Trillo%20full%20size.png" height="700" width="700">
 
